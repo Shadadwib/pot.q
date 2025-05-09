@@ -1,24 +1,31 @@
-# Logs
-logs
-*.log
+# تجاهل ملفات Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+dist/
+build/
 
-node_modules
-dist
-dist-ssr
-*.local
+# ملفات Vite
+.vite/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# ملفات بيئة العمل
+.env
+.env.local
+.env.*.local
+
+# نظام التشغيل
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# ملفات Rasa المؤقتة أو التدريب
+*.db
+__pycache__/
+*.pyc
+events.out.json
+*.tar.gz
+
+# ملفات مخصصة لحالتك
+next.config.js
+real_estate_bot/rasa-x-github-link-demo/actions/gemini_service.py
+
